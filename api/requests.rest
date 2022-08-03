@@ -1,0 +1,20 @@
+GET http://localhost:3001/todos
+
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+  "text": "Order Egg"
+}
+
+
+###
+
+DELETE http://localhost:3001/todo/delete/
+
+###
+
+PUT http://localhost:3001/todo/complete/62e8cf816e2b659dda1d1ee7
